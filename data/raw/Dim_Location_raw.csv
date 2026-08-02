@@ -1,0 +1,18 @@
+location_id,city,state,region
+L101,New Delhi,Delhi,North
+L102,Chandigarh,Punjab,North
+L103,Amritsar,Punjab,North
+L104,Lucknow,Uttar Pradesh,North
+L105,Noida,Uttar Pradesh,North
+L106,Banglore,Karnataka,South
+L107,Mysuru,Karnataka,South
+L108,Chennai,Tamil Nadu,South
+L109,Coimbatore,Tamil Nadu,South
+L110,Hyderabad,Telangana,South
+L111,Kolkata,West Bengal,East
+L112, bhubaneswar,Odisha,East
+L113,Patna,Bihar,East
+L114, mumbai,Maharashtra,West
+L115,Pune,Maharashtra,West
+L116,Ahmedabad,Gujarat,West
+L117, surat,Gujarat,West

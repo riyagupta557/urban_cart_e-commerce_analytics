@@ -1,0 +1,28 @@
+shipping_id,ship_mode,payment_method,order_status
+SH1,Standard,Card,Delivered
+SH2,Standard,Card,Cancelled
+SH3,Standard,Card,Returned
+SH4,Standard,UPI,Delivered
+SH5,Standard,UPI,Cancelled
+SH6,Standard,UPI,Returned
+SH7,Standard,COD,Delivered
+SH8,Standard,COD,Cancelled
+SH9,Standard,COD,Returned
+SH10,Express,Card,Delivered
+SH11,Express,Card,Cancelled
+SH12,Express,Card,Returned
+SH13,Express,UPI,Delivered
+SH14,Express,UPI,Cancelled
+SH15,Express,UPI,Returned
+SH16,Express,COD,Delivered
+SH17,Express,COD,Cancelled
+SH18,Express,COD,Returned
+SH19,Same Day,Card,Delivered
+SH20,Same Day,Card,Cancelled
+SH21,Same Day,Card,Returned
+SH22,Same Day,UPI,Delivered
+SH23,Same Day,UPI,Cancelled
+SH24,Same Day,UPI,Returned
+SH25,Same Day,COD,Delivered
+SH26,Same Day,COD,Cancelled
+SH27,Same Day,COD,Returned

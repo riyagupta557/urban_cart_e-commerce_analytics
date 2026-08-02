@@ -1,0 +1,511 @@
+customer_id,customer_name,segment
+C1001,Rohan Reddy,Consumer
+C1002,Aarav Rao,home office
+C1003,Ayaan Singh,Corporate
+C1004,Arjun Reddy,Corporate
+C1005, KARAN KULKARNI ,Consumer
+C1006,Aditya Shetty,Consumer
+C1007,Aadhya Verma,Consumer
+C1008,Aarav Gupta,Home Office
+C1009,Reyansh Singh,Corporate
+C1010,Anika Menon,Corporate
+C1011,Aarav Kulkarni,Consumer
+C1012,Reyansh Kulkarni,Home Office
+C1013,Aadhya Singh,Corporate
+C1014,Kiara Shetty,Consumer
+C1015,Krishna Sharma,Consumer
+C1016,Neha Nair,Consumer
+C1017,Meera Chopra,Consumer
+C1018,Ananya Rao,Consumer
+C1019,Arjun Patel,consumer
+C1020,Neha Kapoor,Consumer
+C1021,Vihaan Gupta,corporate
+C1022,Saanvi Reddy,Consumer
+C1023,Diya Joshi,Consumer
+C1024,Ira Rao,Consumer
+C1025,Aman Verma,Consumer
+C1026,Priya Bose,Corporate
+C1027,Navya Reddy,Consumer
+C1028,Dev Malhotra,Consumer
+C1029,Aditya Kulkarni,Corporate
+C1030,Ishaan Menon,Consumer
+C1031,Yash Joshi,Corporate
+C1032, RIYA PATEL ,Consumer
+C1033,Meera Gupta,Consumer
+C1034,Vivaan Singh,Home Office
+C1035, NEHA MEHTA ,Home Office
+C1036,Aditya Singh,Corporate
+C1037,Tanvi Reddy,Consumer
+C1038,Saanvi Rao,Consumer
+C1039,Kiara Joshi,Corporate
+C1040,Sai Joshi,Consumer
+C1041,Diya Patel,Consumer
+C1042,Karan Rao,Consumer
+C1043,Meera Gupta,Consumer
+C1044,Ira Nair,Home Office
+C1045,Navya Singh,Consumer
+C1046,Sai Bose,Corporate
+C1047,Saanvi Rao,Consumer
+C1048, DEV KULKARNI ,Consumer
+C1049,Ayaan Kapoor,Consumer
+C1050,Sanya Verma,Consumer
+C1051,Ayaan Verma,Home Office
+C1052,Aman Kapoor,Corporate
+C1053,Saanvi Rao,Home Office
+C1054,Aditya Patel,Home Office
+C1055,Dev Shetty,Corporate
+C1056,Yash Kapoor,Home Office
+C1057,Reyansh Pillai,Consumer
+C1058,Saanvi Bose,Consumer
+C1059,Arjun Rao,Consumer
+C1060,Arjun Singh,Consumer
+C1061,Priya Kulkarni,Consumer
+C1062,Navya Rao,Consumer
+C1063,Priya Shetty,Corporate
+C1064,Aadhya Shetty,Consumer
+C1065,Saanvi Joshi,Consumer
+C1066, AYAAN IYER ,consumer
+C1067, ANIKA PILLAI ,Consumer
+C1068, ADITYA VERMA ,Corporate
+C1069,Tanvi Reddy,Consumer
+C1070,Arjun Nair,Home Office
+C1071,Aman Chopra,Corporate
+C1072,Ira Gupta,Consumer
+C1073,Saanvi Malhotra,Consumer
+C1074,Ira Bose,Corporate
+C1075,Anika Rao,Corporate
+C1076,Navya Sharma,Corporate
+C1077,Karan Reddy,Corporate
+C1078,Karan Kulkarni,Consumer
+C1079,Neha Rao,Consumer
+C1080,Neha Kapoor,Consumer
+C1081,Vihaan Mehta,Home Office
+C1082,Aadhya Nair,Corporate
+C1083,Kiara Sharma,Consumer
+C1084,Priya Rao,Consumer
+C1085,Anika Nair,Consumer
+C1086,Anika Reddy,Consumer
+C1087,Tanvi Mehta,Corporate
+C1088,Sanya Desai,Corporate
+C1089,Ira Patel,Home Office
+C1090,Arjun Joshi,consumer
+C1091, NEHA NAIR ,Consumer
+C1092,Navya Desai,Corporate
+C1093,Dev Sharma,Corporate
+C1094,Ira Kapoor,Corporate
+C1095,Myra Sharma,Corporate
+C1096,Vihaan Joshi,Consumer
+C1097,Yash Mehta,Consumer
+C1098,Ayaan Verma,Consumer
+C1099,Ayaan Shetty,Consumer
+C1100,Aditya Gupta,Consumer
+C1101,Priya Pillai,Consumer
+C1102,Sanya Gupta,Corporate
+C1103, NEHA KULKARNI ,Consumer
+C1104,Neha Iyer,Consumer
+C1105,Arjun Pillai,Home Office
+C1106,Navya Nair,Consumer
+C1107,Krishna Desai,Consumer
+C1108,Tanvi Menon,Corporate
+C1109,Aadhya Patel,Consumer
+C1110,Dev Kulkarni,Consumer
+C1111,Neha Patel,Consumer
+C1112,Meera Mehta,Consumer
+C1113,Saanvi Joshi,Home Office
+C1114,Kiara Desai,Corporate
+C1115,Kiara Reddy,Corporate
+C1116,Ayaan Singh,Home Office
+C1117,Aditya Kapoor,Corporate
+C1118,Aarav Shetty,Consumer
+C1119,Navya Singh,Home Office
+C1120, RIYA SINGH ,Consumer
+C1121,Aarav Gupta,Corporate
+C1122,Meera Verma,Home Office
+C1123,Ayaan Gupta,Consumer
+C1124,Yash Verma,Consumer
+C1125,Tanvi Kapoor,Consumer
+C1126,Aditya Desai,Consumer
+C1127,Ayaan Rao,Corporate
+C1128,Karan Pillai,Home Office
+C1129, REYANSH KULKARNI ,Consumer
+C1130,Arjun Shetty,consumer
+C1131,Riya Pillai,Consumer
+C1132,Ayaan Pillai,consumer
+C1133,Aman Chopra,Consumer
+C1134,Reyansh Reddy,Consumer
+C1135,Vihaan Chopra,Home Office
+C1136,Diya Chopra,Consumer
+C1137,Aadhya Bose,Consumer
+C1138,Tanvi Verma,Corporate
+C1139,Karan Reddy,Consumer
+C1140,Vivaan Malhotra,Home Office
+C1141,Priya Kapoor,Home Office
+C1142,Aman Reddy,Consumer
+C1143, AYAAN PATEL ,Consumer
+C1144,Reyansh Kulkarni,Consumer
+C1145,Kiara Iyer,Consumer
+C1146,Aadhya Nair,Consumer
+C1147, KRISHNA BOSE ,Corporate
+C1148,Ayaan Gupta,Consumer
+C1149,Kiara Kulkarni,Consumer
+C1150,Vihaan Verma,Consumer
+C1151,Rohan Kulkarni,Home Office
+C1152,Sanya Sharma,Consumer
+C1153,Aditya Singh,Consumer
+C1154,Sai Chopra,Consumer
+C1155,Myra Pillai,Home Office
+C1156,Reyansh Malhotra,Consumer
+C1157,Yash Verma,Corporate
+C1158,Sai Malhotra,Corporate
+C1159,Aarav Malhotra,Consumer
+C1160,Krishna Bose,Corporate
+C1161,Ishaan Chopra,Consumer
+C1162,Meera Kulkarni,corporate
+C1163,Karan Pillai,Corporate
+C1164,Arjun Patel,Consumer
+C1165,Ishaan Patel,Consumer
+C1166,Vivaan Shetty,Corporate
+C1167,Priya Kulkarni,Consumer
+C1168,Vivaan Kapoor,Consumer
+C1169, VIVAAN VERMA ,Consumer
+C1170,Riya Pillai,Corporate
+C1171,Anika Desai,Corporate
+C1172,Sai Verma,consumer
+C1173,Anika Gupta,Consumer
+C1174, TANVI NAIR ,Consumer
+C1175,Aditya Menon,Corporate
+C1176,Aditya Singh,Consumer
+C1177,Saanvi Reddy,corporate
+C1178,Yash Shetty,Consumer
+C1179,Ayaan Shetty,Home Office
+C1180, IRA VERMA ,Consumer
+C1181,Ira Gupta,Consumer
+C1182,Aadhya Shetty,Consumer
+C1183,Riya Desai,Home Office
+C1184,Ananya Rao,Home Office
+C1185,Reyansh Kapoor,Consumer
+C1186,Ayaan Rao,Corporate
+C1187,Saanvi Iyer,Corporate
+C1188,Karan Mehta,Corporate
+C1189,Kiara Kapoor,Consumer
+C1190, DEV GUPTA ,Consumer
+C1191,Aarav Bose,Consumer
+C1192,Ira Shetty,Home Office
+C1193,Vihaan Gupta,Home Office
+C1194,Navya Patel,Corporate
+C1195,Anika Rao,Consumer
+C1196,Arjun Joshi,Consumer
+C1197,Yash Gupta,Corporate
+C1198,Yash Singh,Home Office
+C1199,Diya Mehta,home office
+C1200,Sai Bose,Corporate
+C1201,Sanya Kulkarni,Corporate
+C1202, MEERA MEHTA ,Consumer
+C1203,Ira Desai,Consumer
+C1204,Aarav Kulkarni,Home Office
+C1205,Ishaan Reddy,Corporate
+C1206,Yash Iyer,Consumer
+C1207,Krishna Reddy,Consumer
+C1208,Yash Reddy,Corporate
+C1209,Priya Kulkarni,Consumer
+C1210,Arjun Rao,Consumer
+C1211,Ishaan Menon,Consumer
+C1212,Reyansh Kapoor,Corporate
+C1213,Reyansh Rao,Corporate
+C1214, ANIKA PILLAI ,Consumer
+C1215,Krishna Verma,Corporate
+C1216,Aditya Chopra,Consumer
+C1217,Sanya Rao,Consumer
+C1218,Vivaan Sharma,Corporate
+C1219,Ananya Iyer,Corporate
+C1220,Rohan Rao,Corporate
+C1221,Sai Bose,Corporate
+C1222,Navya Chopra,Corporate
+C1223,Navya Sharma,Consumer
+C1224,Vihaan Gupta,Consumer
+C1225,Yash Iyer,Consumer
+C1226,Navya Verma,consumer
+C1227,Sanya Joshi,Home Office
+C1228,Riya Kulkarni,Consumer
+C1229,Arjun Chopra,Home Office
+C1230,Arjun Verma,Corporate
+C1231,Ishaan Joshi,Corporate
+C1232,Yash Verma,Consumer
+C1233,Yash Joshi,Corporate
+C1234, REYANSH SINGH ,Consumer
+C1235,Karan Reddy,Consumer
+C1236,Diya Kulkarni,Corporate
+C1237,Yash Chopra,Consumer
+C1238,Ira Iyer,Consumer
+C1239,Dev Singh,Corporate
+C1240,Tanvi Nair,Consumer
+C1241,Aman Nair,Home Office
+C1242,Yash Chopra,Home Office
+C1243,Aarav Nair,Home Office
+C1244,Priya Kapoor,Consumer
+C1245,Aman Chopra,Consumer
+C1246,Aman Singh,Home Office
+C1247,Krishna Nair,Consumer
+C1248,Aman Reddy,Home Office
+C1249,Saanvi Verma,Home Office
+C1250, TANVI PILLAI ,Home Office
+C1251,Ayaan Patel,Consumer
+C1252,Sanya Bose,Consumer
+C1253,Diya Mehta,Home Office
+C1254,Sanya Singh,Consumer
+C1255,Ayaan Sharma,Consumer
+C1256,Karan Patel,Corporate
+C1257,Saanvi Kapoor,Home Office
+C1258,Krishna Gupta,Corporate
+C1259,Neha Rao,Corporate
+C1260,Diya Desai,Consumer
+C1261,Saanvi Kulkarni,Corporate
+C1262,Ananya Sharma,Home Office
+C1263,Vihaan Rao,Consumer
+C1264,Sai Shetty,Consumer
+C1265,Krishna Verma,Home Office
+C1266,Vihaan Menon,corporate
+C1267,Aadhya Joshi,Corporate
+C1268,Priya Kapoor,Corporate
+C1269,Aadhya Menon,Consumer
+C1270,Anika Reddy,Consumer
+C1271,Saanvi Shetty,Corporate
+C1272,Reyansh Rao,Corporate
+C1273,Vivaan Chopra,Home Office
+C1274,Aarav Desai,Home Office
+C1275,Dev Kulkarni,Consumer
+C1276,Karan Patel,Consumer
+C1277,Diya Chopra,Corporate
+C1278, ADITYA KAPOOR ,Corporate
+C1279,Ira Kapoor,Corporate
+C1280,Karan Reddy,Corporate
+C1281,Priya Mehta,home office
+C1282,Anika Mehta,Consumer
+C1283,Karan Chopra,Consumer
+C1284,Ananya Malhotra,Consumer
+C1285,Meera Mehta,Corporate
+C1286,Navya Iyer,Consumer
+C1287,Reyansh Chopra,Consumer
+C1288,Karan Malhotra,Consumer
+C1289,Karan Nair,Consumer
+C1290, IRA SHETTY ,Corporate
+C1291,Ishaan Malhotra,Consumer
+C1292,Navya Sharma,Consumer
+C1293,Ishaan Mehta,Corporate
+C1294, REYANSH CHOPRA ,Consumer
+C1295,Aman Shetty,Consumer
+C1296, IRA KAPOOR ,Consumer
+C1297,Kiara Bose,Corporate
+C1298,Kiara Patel,Consumer
+C1299,Anika Pillai,Corporate
+C1300,Aman Nair,Consumer
+C1301,Karan Gupta,Consumer
+C1302,Ishaan Desai,Consumer
+C1303,Karan Menon,Consumer
+C1304,Ananya Gupta,Corporate
+C1305, SANYA SINGH ,Corporate
+C1306, KARAN MEHTA ,Home Office
+C1307, AYAAN PATEL ,Consumer
+C1308,Arjun Sharma,Consumer
+C1309,Vivaan Singh,Corporate
+C1310,Myra Menon,Consumer
+C1311, TANVI GUPTA ,Consumer
+C1312, KIARA CHOPRA ,Consumer
+C1313, YASH SHETTY ,Consumer
+C1314,Reyansh Malhotra,Home Office
+C1315,Myra Malhotra,corporate
+C1316,Ayaan Iyer,Corporate
+C1317,Rohan Sharma,Consumer
+C1318,Yash Reddy,consumer
+C1319,Neha Chopra,Consumer
+C1320,Ayaan Nair,Consumer
+C1321,Aman Desai,Consumer
+C1322,Kiara Verma,Corporate
+C1323, NAVYA SINGH ,Corporate
+C1324,Dev Reddy,Consumer
+C1325,Kiara Iyer,Home Office
+C1326,Aman Bose,Corporate
+C1327, KARAN DESAI ,Corporate
+C1328,Navya Menon,corporate
+C1329,Ananya Bose,Consumer
+C1330, IRA DESAI ,Consumer
+C1331, AADHYA KULKARNI ,consumer
+C1332,Kiara Nair,Corporate
+C1333,Priya Pillai,Consumer
+C1334,Kiara Rao,Consumer
+C1335,Neha Singh,Consumer
+C1336,Sanya Rao,Consumer
+C1337,Neha Desai,Home Office
+C1338,Myra Singh,Corporate
+C1339,Krishna Bose,Consumer
+C1340,Aditya Mehta,Consumer
+C1341, AYAAN RAO ,Consumer
+C1342,Ananya Kapoor,Consumer
+C1343, YASH KULKARNI ,Consumer
+C1344,Aditya Iyer,Consumer
+C1345,Arjun Singh,Consumer
+C1346, SAANVI IYER ,Corporate
+C1347,Meera Patel,corporate
+C1348,Aditya Chopra,Consumer
+C1349,Aadhya Kapoor,Consumer
+C1350,Navya Bose,Corporate
+C1351,Aadhya Verma,consumer
+C1352,Reyansh Chopra,Home Office
+C1353,Saanvi Shetty,Corporate
+C1354,Meera Sharma,Consumer
+C1355,Tanvi Shetty,Consumer
+C1356,Saanvi Pillai,Corporate
+C1357,Aarav Joshi,Consumer
+C1358,Ishaan Malhotra,Corporate
+C1359,Tanvi Chopra,Home Office
+C1360,Navya Kulkarni,Corporate
+C1361,Aman Menon,Consumer
+C1362, YASH SINGH ,Corporate
+C1363,Myra Singh,Consumer
+C1364,Krishna Chopra,Consumer
+C1365,Myra Sharma,Home Office
+C1366,Saanvi Kapoor,Consumer
+C1367,Karan Malhotra,Home Office
+C1368,Priya Nair,Home Office
+C1369,Sanya Bose,Consumer
+C1370,Dev Iyer,Consumer
+C1371,Ira Kulkarni,Consumer
+C1372,Aarav Malhotra,Consumer
+C1373,Riya Shetty,Consumer
+C1374,Karan Sharma,Corporate
+C1375, ADITYA CHOPRA ,Consumer
+C1376,Arjun Bose,consumer
+C1377,Sai Verma,Corporate
+C1378,Krishna Malhotra,consumer
+C1379,Ananya Patel,Corporate
+C1380,Kiara Kapoor,Consumer
+C1381,Ananya Malhotra,Consumer
+C1382,Krishna Chopra,Corporate
+C1383,Krishna Gupta,Corporate
+C1384,Myra Sharma,Home Office
+C1385,Priya Kulkarni,corporate
+C1386,Vivaan Joshi,Corporate
+C1387,Ayaan Gupta,Consumer
+C1388,Neha Verma,Consumer
+C1389,Neha Sharma,Corporate
+C1390,Ayaan Patel,Corporate
+C1391,Sanya Sharma,Home Office
+C1392,Ira Iyer,Consumer
+C1393,Ayaan Iyer,Consumer
+C1394,Myra Reddy,Corporate
+C1395,Riya Patel,Consumer
+C1396,Kiara Rao,Home Office
+C1397,Neha Joshi,Home Office
+C1398,Sai Menon,Consumer
+C1399,Ira Reddy,Corporate
+C1400,Neha Nair,Corporate
+C1401,Ishaan Reddy,Consumer
+C1402, RIYA SHARMA ,Home Office
+C1403,Dev Mehta,Consumer
+C1404,Riya Malhotra,Corporate
+C1405,Saanvi Patel,Consumer
+C1406,Aditya Shetty,Home Office
+C1407, MEERA SINGH ,Consumer
+C1408,Vihaan Mehta,Consumer
+C1409,Tanvi Menon,Home Office
+C1410,Aman Reddy,Consumer
+C1411,Aman Shetty,Consumer
+C1412,Aman Verma,Home Office
+C1413,Diya Kulkarni,Home Office
+C1414,Aadhya Joshi,Corporate
+C1415,Aditya Desai,Corporate
+C1416,Rohan Kapoor,Consumer
+C1417, AARAV CHOPRA ,consumer
+C1418,Sanya Pillai,Consumer
+C1419,Vihaan Chopra,Corporate
+C1420,Diya Bose,Corporate
+C1421,Meera Iyer,Corporate
+C1422,Aadhya Nair,Corporate
+C1423,Priya Desai,Consumer
+C1424,Rohan Rao,Consumer
+C1425,Ira Kulkarni,Consumer
+C1426,Neha Pillai,Consumer
+C1427,Kiara Chopra,Consumer
+C1428,Sanya Shetty,Home Office
+C1429,Krishna Kapoor,Consumer
+C1430,Tanvi Singh,Consumer
+C1431, SANYA GUPTA ,Consumer
+C1432,Krishna Bose,Corporate
+C1433,Ayaan Bose,Corporate
+C1434,Riya Menon,Consumer
+C1435, KARAN MALHOTRA ,Consumer
+C1436,Ananya Sharma,corporate
+C1437,Myra Kapoor,Consumer
+C1438,Sai Pillai,Corporate
+C1439,Reyansh Joshi,Corporate
+C1440,Aman Rao,Consumer
+C1441,Ananya Rao,consumer
+C1442,Yash Menon,Home Office
+C1443, MEERA RAO ,Consumer
+C1444,Navya Sharma,Consumer
+C1445,Anika Patel,Corporate
+C1446,Aditya Singh,Home Office
+C1447,Priya Chopra,Home Office
+C1448,Myra Kulkarni,Corporate
+C1449,Neha Singh,Consumer
+C1450,Meera Pillai,Consumer
+C1451,Rohan Pillai,Corporate
+C1452,Kiara Sharma,Corporate
+C1453,Aditya Mehta,Consumer
+C1454,Ayaan Malhotra,Home Office
+C1455,Meera Singh,Consumer
+C1456,Ishaan Shetty,Consumer
+C1457,Diya Pillai,Consumer
+C1458,Navya Desai,Consumer
+C1459,Diya Chopra,Consumer
+C1460,Priya Kulkarni,consumer
+C1461,Ananya Joshi,Consumer
+C1462,Meera Bose,Corporate
+C1463,Krishna Mehta,Corporate
+C1464,Krishna Singh,Corporate
+C1465,Vihaan Patel,Home Office
+C1466,Ananya Reddy,consumer
+C1467,Priya Kulkarni,Consumer
+C1468, NEHA NAIR ,Home Office
+C1469,Reyansh Patel,Consumer
+C1470,Priya Pillai,Home Office
+C1471,Krishna Shetty,Consumer
+C1472,Neha Desai,Home Office
+C1473,Ira Mehta,Consumer
+C1474,Vihaan Patel,Home Office
+C1475,Ishaan Singh,consumer
+C1476,Diya Nair,Home Office
+C1477,Ishaan Sharma,consumer
+C1478,Meera Kulkarni,Corporate
+C1479,Arjun Rao,Home Office
+C1480, VIVAAN VERMA ,Consumer
+C1481,Navya Mehta,Corporate
+C1482,Meera Iyer,Corporate
+C1483,Rohan Pillai,Consumer
+C1484,Vihaan Sharma,Corporate
+C1485,Riya Mehta,Corporate
+C1486, MYRA PILLAI ,Home Office
+C1487,Kiara Kapoor,Consumer
+C1488,Sai Verma,Consumer
+C1489,Krishna Pillai,Home Office
+C1490,Vihaan Gupta,Home Office
+C1491,Saanvi Pillai,Consumer
+C1492,Aditya Shetty,Corporate
+C1493, ROHAN VERMA ,Consumer
+C1494,Arjun Iyer,Consumer
+C1495,Aman Shetty,Consumer
+C1496,Ishaan Gupta,Consumer
+C1497,Ayaan Reddy,Corporate
+C1498,Navya Chopra,Consumer
+C1499,Ira Menon,Home Office
+C1500,Aman Menon,Home Office
+C1131,Riya Pillai,Consumer
+C1292,Navya Sharma,Consumer
+C1038,Saanvi Rao,Consumer
+C1240,Tanvi Nair,Consumer
+C1192,Ira Shetty,Home Office
+C1421,Meera Iyer,Corporate
+C1324,Dev Reddy,Consumer
+C1028,Dev Malhotra,Consumer
+C1212,Reyansh Kapoor,Corporate
+C1485,Riya Mehta,Corporate
