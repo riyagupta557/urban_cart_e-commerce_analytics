@@ -1,14 +1,8 @@
 -- ============================================================
 -- URBANCART -- E-Commerce Sales Analytics
--- 18 Business Queries | MySQL 8+
--- Ordered basic -> intermediate. No complex/nested CTEs.
--- Revenue/profit measures are filtered to order_status = 'Delivered'
--- (cancelled/returned orders never generated real revenue).
--- Volume/status queries intentionally use ALL orders.
 -- ============================================================
 
 -- 1. Core business measures: Total Sales, Profit, Quantity, AOV, Margin %, Avg Discount
---    (Delivered orders only -- these are realized business results)
 SELECT
     ROUND(SUM(o.sales), 2)              AS total_sales,
     ROUND(SUM(o.profit), 2)             AS total_profit,
@@ -20,7 +14,7 @@ FROM orders o
 JOIN shipping s ON o.shipping_id = s.shipping_id
 WHERE s.order_status = 'Delivered';
 
--- 2. Sales and profit by category (Delivered only)
+-- 2. Sales and profit by category 
 SELECT
     p.category,
     ROUND(SUM(o.sales), 2)  AS total_sales,
@@ -33,7 +27,7 @@ WHERE s.order_status = 'Delivered'
 GROUP BY p.category
 ORDER BY total_sales DESC;
 
--- 3. Sales by region (Delivered only)
+-- 3. Sales by region 
 SELECT
     l.region,
     ROUND(SUM(o.sales), 2) AS total_sales,
@@ -45,7 +39,7 @@ WHERE s.order_status = 'Delivered'
 GROUP BY l.region
 ORDER BY total_sales DESC;
 
--- 4. Top 10 customers by sales (Delivered only)
+-- 4. Top 10 customers by sales 
 SELECT
     c.customer_name,
     c.segment,
@@ -58,7 +52,7 @@ GROUP BY c.customer_id, c.customer_name, c.segment
 ORDER BY total_sales DESC
 LIMIT 10;
 
--- 5. Top 10 products by sales (Delivered only)
+-- 5. Top 10 products by sales
 SELECT
     p.product_name,
     p.category,
@@ -71,7 +65,7 @@ GROUP BY p.product_id, p.product_name, p.category
 ORDER BY total_sales DESC
 LIMIT 10;
 
--- 6. Sales and margin by customer segment (Delivered only)
+-- 6. Sales and margin by customer segment 
 SELECT
     c.segment,
     ROUND(SUM(o.sales), 2)  AS total_sales,
@@ -83,7 +77,7 @@ WHERE s.order_status = 'Delivered'
 GROUP BY c.segment
 ORDER BY total_sales DESC;
 
--- 7. Monthly sales trend (Delivered only)
+-- 7. Monthly sales trend
 SELECT
     DATE_FORMAT(o.order_date, '%Y-%m') AS order_month,
     ROUND(SUM(o.sales), 2) AS total_sales
@@ -93,7 +87,7 @@ WHERE s.order_status = 'Delivered'
 GROUP BY order_month
 ORDER BY order_month;
 
--- 8. Order status breakdown (ALL orders -- this query IS the status distribution)
+-- 8. Order status breakdown 
 SELECT
     s.order_status,
     COUNT(*) AS order_count,
@@ -102,7 +96,7 @@ FROM orders o
 JOIN shipping s ON o.shipping_id = s.shipping_id
 GROUP BY s.order_status;
 
--- 9. Sales by ship mode (Delivered only)
+-- 9. Sales by ship mode
 SELECT
     s.ship_mode,
     ROUND(SUM(o.sales), 2) AS total_sales,
@@ -113,7 +107,7 @@ WHERE s.order_status = 'Delivered'
 GROUP BY s.ship_mode
 ORDER BY total_sales DESC;
 
--- 10. Cancellation rate by payment method (ALL orders -- needed for a true rate)
+-- 10. Cancellation rate by payment method 
 SELECT
     s.payment_method,
     COUNT(*) AS total_orders,
@@ -124,8 +118,7 @@ JOIN shipping s ON o.shipping_id = s.shipping_id
 GROUP BY s.payment_method
 ORDER BY cancel_rate_pct DESC;
 
--- 11. Average discount by category (ALL orders -- discount is applied at checkout
---     regardless of eventual outcome, so this intentionally includes cancelled/returned)
+-- 11. Average discount by category 
 SELECT
     p.category,
     ROUND(AVG(o.discount) * 100, 2) AS avg_discount_pct
@@ -134,7 +127,7 @@ JOIN products p ON o.product_id = p.product_id
 GROUP BY p.category
 ORDER BY avg_discount_pct DESC;
 
--- 12. Customers with more than 15 orders (ALL orders -- order volume, not revenue)
+-- 12. Customers with more than 15 orders 
 SELECT
     c.customer_name,
     COUNT(*) AS order_count
@@ -144,7 +137,7 @@ GROUP BY c.customer_id, c.customer_name
 HAVING COUNT(*) > 15
 ORDER BY order_count DESC;
 
--- 13. Products that have never been ordered (LEFT JOIN + IS NULL, status irrelevant)
+-- 13. Products that have never been ordered 
 SELECT
     p.product_id,
     p.product_name,
@@ -153,7 +146,7 @@ FROM products p
 LEFT JOIN orders o ON p.product_id = o.product_id
 WHERE o.order_id IS NULL;
 
--- 14. Region-wise cancellation rate (ALL orders -- needed for a true rate)
+-- 14. Region-wise cancellation rate 
 SELECT
     l.region,
     COUNT(*) AS total_orders,
@@ -164,7 +157,7 @@ JOIN shipping s  ON o.shipping_id = s.shipping_id
 GROUP BY l.region
 ORDER BY cancel_rate_pct DESC;
 
--- 15. Top 5 states by total sales (Delivered only)
+-- 15. Top 5 states by total sales 
 SELECT
     l.state,
     ROUND(SUM(o.sales), 2) AS total_sales
@@ -176,7 +169,7 @@ GROUP BY l.state
 ORDER BY total_sales DESC
 LIMIT 5;
 
--- 16. Customers who spent above the overall average order value (Delivered only)
+-- 16. Customers who spent above the overall average order value 
 SELECT
     c.customer_name,
     ROUND(AVG(o.sales), 2) AS avg_order_value
@@ -193,7 +186,7 @@ HAVING AVG(o.sales) > (
 )
 ORDER BY avg_order_value DESC;
 
--- 17. Highest single sales transaction (Delivered only -- a cancelled "sale" isn't real)
+-- 17. Highest single sales transaction 
 SELECT
     o.order_id,
     c.customer_name,
@@ -208,7 +201,7 @@ WHERE s.order_status = 'Delivered'
 ORDER BY o.sales DESC
 LIMIT 1;
 
--- 18. Rank products within each category by total sales (Delivered only, window function)
+-- 18. Rank products within each category by total sales 
 SELECT
     category,
     product_name,
