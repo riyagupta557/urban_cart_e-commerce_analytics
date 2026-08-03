@@ -1,8 +1,8 @@
 
 ## Business Insights
 
-1. **Electronics** delivers strong sales at ~28% profit margin; **Furniture**
-   discounts nearly 2x deeper (~18%) for only ~10% profit margin.
+1. **Electronics** delivers strong sales at ~30% profit margin; **Furniture**
+   discounts nearly 2x deeper (~18%) for only ~11% profit margin.
 2. **Laptops, Cameras, Headphones, Phones** drive almost all revenue --
    the next sub-category doesn't reach half their volume.
 3. **Profit growth is lagging sales growth** from 2024 to 2025.
