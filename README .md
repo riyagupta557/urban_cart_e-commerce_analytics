@@ -147,10 +147,12 @@ The analysis focused on answering business questions through SQL queries involvi
 7. **Time-Based Analysis**
    - Yearly sales and profit trends.
    - Comparison of revenue growth against profit growth.
-
+  
 📁 **Explore SQL Files:**
-- `sql/schema.sql` – Database and table structure.
-- `sql/business_queries.sql` – Business analysis queries.
+
+- [Database Schema](sql/schema.sql)
+- [Business Analysis Queries](sql/business_queries.sql)
+
 
 ## 📊 Dashboard / Visualization
 
@@ -165,7 +167,7 @@ An interactive e-commerce sales performance dashboard was developed using Tablea
 
 The dashboard enables users to explore business performance dynamically and identify areas requiring management attention.
 
-📊 **View Dashboard:** Explore the `dashboard/` folder in this repository.
+📊 **View Dashboard:** 	[Tableau Dashboard](dashboard/Dashboard%20image.png)
 
 ## 💡 Key Insights
 
