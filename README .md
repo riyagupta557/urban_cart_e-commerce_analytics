@@ -72,6 +72,8 @@ The analysis addresses the following business questions:
 **Records:** Approximately 7,000 order records  
 **Structure:** Four raw data exports used for the analysis.
 
+**View Data:** [View Data](data/cleaned.csv)
+
 ## 🛠️ Tools & Technologies
 
 | Tool | Purpose |
