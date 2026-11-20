@@ -197,21 +197,12 @@ The dashboard enables users to explore business performance dynamically and iden
 
 6. **Improve Regional Performance:** Investigate the East region's lower sales contribution and introduce localized promotions to improve regional performance.
 
-## 📑 Project Report
-
-The complete project report provides detailed documentation of the analytical process, dashboard interpretations, key findings, business recommendations, and overall conclusions.
-
-📄 **View Full Project Report:** Refer to the project report in the repository (if uploaded).
 
 ## 🏁 Conclusion
 
 The UrbanCart E-Commerce Sales Analytics project demonstrates an end-to-end data analytics process, from raw data preparation and relational database modelling to SQL-based business analysis and interactive dashboard development.
-
 The analysis highlights important differences in category profitability, discount effectiveness, customer segment performance, payment-related cancellations, and regional sales contribution.
-
 The findings provide actionable recommendations to improve discount strategies, strengthen profitable product categories, reduce cancellations, and identify opportunities for business expansion.
-
-Overall, the project demonstrates how Excel, MySQL, and Tableau can be combined to transform raw transactional data into meaningful business insights and support data-driven decision-making.
 
 ## 📁 Repository Structure
 
